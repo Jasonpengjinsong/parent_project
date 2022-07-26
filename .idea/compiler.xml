@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -36,6 +37,7 @@
       <module name="service_base" options="-parameters" />
       <module name="service_cms" options="-parameters" />
       <module name="service_edu" options="-parameters" />
+      <module name="service_gateway" options="-parameters" />
       <module name="service_msm" options="-parameters" />
       <module name="service_order" options="-parameters" />
       <module name="service_oss" options="-parameters" />
